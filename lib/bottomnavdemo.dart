@@ -112,25 +112,25 @@ class _BottomNavigationDemoState extends State<BottomNavigationDemo>
       ),
       new NavigationIconView(
         icon: new CustomIcon(),
-        title: 'Pay Bills',
+        title: 'PB',
         color: Colors.deepOrange,
         vsync: this,
       ),
       new NavigationIconView(
         icon: const Icon(Icons.cloud),
-        title: 'Transfer Funds',
+        title: 'TF',
         color: Colors.teal,
         vsync: this,
       ),
       new NavigationIconView(
         icon: const Icon(Icons.favorite),
-        title: 'D@M',
+        title: 'DM',
         color: Colors.indigo,
         vsync: this,
       ),
       new NavigationIconView(
         icon: const Icon(Icons.event_available),
-        title: 'Inbox',
+        title: 'I',
         color: Colors.pink,
         vsync: this,
       )
